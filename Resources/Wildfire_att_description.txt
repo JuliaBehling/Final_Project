@@ -1,6 +1,6 @@
 fire_name            ,Name of Fire
-fire_size           ,Size of Fire 
-fire_size_class      ,Class of Fire Size (A-G)
+fire_size           ,Size of Fire (hectares)
+fire_size_class      ,Class of Fire Size (A-G) (A: smallest, G: largest)
 stat_cause_descr     ,Cause of Fire
 latitude            ,Latitude of Fire
 longitude           ,Longitude of Fire
