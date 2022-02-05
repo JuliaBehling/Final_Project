@@ -3,6 +3,7 @@
 
 <img width="941" alt="Capture" src="https://user-images.githubusercontent.com/90812456/152652437-a6ec29f5-b687-4943-b34b-613e16e51cd3.PNG">
 
+# Presentation:
 ### Topic Selection:
 Our selected topic the compares correlation between the size of California's wildfires to the quantity of available fire relief resources within each County. 
 
@@ -23,3 +24,9 @@ Questions We Hope to answer:
 1.	Is there a statistically significant correlation between wildfire size to the quantity of fire relief stations per County. 
 2.	Does funding and or socieconomic status of a county factor into the ability to fight Fires?
 3.	what other factors play into creating a fire prediction model?
+
+
+# GitHub:
+## Description of Communication Protocals:
+This team has a private group in slack as well as a group text to communicate. Additionally, we have met via zoom meeting to complete this deliverable. 
+
