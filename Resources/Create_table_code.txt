@@ -1,0 +1,42 @@
+<<<<<<< HEAD
+create table CAL_FIRE_Facilities_for_Wildland_Fire_Protection
+(x int,
+ y int,
+ OBJECTID int  ,
+ NAME varchar (50),
+ CAD_NAME varchar(50),
+ AKA varchar (50),
+ Type varchar (50),
+ unit varchar (50),
+ COUNTY varchar (50),
+ OWNER varchar (50),
+ FUNDING varchar (50),
+ STAFFING varchar (50),
+ ADDRESS  varchar (50),
+ CITY varchar (50),
+ ZIP  int ,
+ PHONE_NUM int ,
+ LAT DECIMAL,
+ LON DECIMAL 
+=======
+create table CAL_FIRE_Facilities_for_Wildland_Fire_Protection
+(x int,
+ y int,
+ OBJECTID int  ,
+ NAME varchar (50),
+ CAD_NAME varchar(50),
+ AKA varchar (50),
+ Type varchar (50),
+ unit varchar (50),
+ COUNTY varchar (50),
+ OWNER varchar (50),
+ FUNDING varchar (50),
+ STAFFING varchar (50),
+ ADDRESS  varchar (50),
+ CITY varchar (50),
+ ZIP  int ,
+ PHONE_NUM int ,
+ LAT DECIMAL,
+ LON DECIMAL 
+>>>>>>> abac5243ce5d518b46e160cdef6bc0c841d610d9
+ )
