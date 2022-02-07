@@ -16,6 +16,6 @@ create table CAL_FIRE_Facilities_for_Wildland_Fire_Protection
  CITY varchar (50),
  ZIP  int ,
  PHONE_NUM int ,
- LAT DECIMAL,
- LON DECIMAL 
+ LAT int ,
+ LON int 
 =======
