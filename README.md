@@ -23,7 +23,7 @@ We will be applying 2 different data sources for this analysis:
 3.	what other factors play into creating a fire prediction model?
 
 
-# GitHub:
+# GitHub
 ## Description of Communication Protocals:
 This team has a private group in slack as well as a group text to communicate. Additionally, we have met via zoom meeting to complete this deliverable. 
 
