@@ -5,20 +5,18 @@
 
 # Presentation:
 ### Topic Selection:
-Our selected topic the compares correlation between the size of California's wildfires to the quantity of available fire relief resources within each County. 
+Our selected topic predicts the fire classification output based on wildfire size.
 
 ### Reason for Topic Selection:
 The State of California has reached an unprecedented crisis in annual wildfire size and intensity. Decades of well-intended fire suppression techniques has led to an overabundance of combustible material throughout the natural landscape. Partnered with unparalleled high temperatures and drought, residents of California suffer from poor air quality, possibility of home loss, and risk to personal safety.  
 
-California is divided into 58 counties of varying population size and socieconomic stature. We selected this topic to determine if increased quantity and availability of fire-relief resources per County assit in mitigating wildfire size. As wildfires continue to proliferate, and devestating events such as the Camp fire in Paradise California (An event which led to the loss of over 11,000 homes and 85 deaths); Prediction models such as this will need to be utilized for the sake of public safety.
+California is a large mass with varying vegetation types, temperature, and moisture regimes. We selected this topic to determine if it is possible to predict what class of fire (A-G) based on fire size. As wildfires continue to proliferate, and devestating events such as the Camp Fire in Paradise California (An event which led to the loss of over 11,000 homes and 85 deaths); Prediction models such as this will need to be utilized for the sake of public safety.
 
 ### Description of Source Data:
 We will be applying 2 different data sources for this analysis:
 
 * #### Data Source 1: US Wildfire Data:
   * https://www.kaggle.com/ananthu017/california-wildfire-incidents-20132020
-* #### Data Source 2: California Fire Stations:
-  *   https://catalog.data.gov/dataset/cal-fire-facilities-for-wildland-fire-protection
 
 Questions We Hope to answer:
 1.	Is there a statistically significant correlation between wildfire size to the quantity of fire relief stations per County. 
