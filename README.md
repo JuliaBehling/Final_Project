@@ -12,9 +12,9 @@ The State of California has reached an unprecedented crisis in annual wildfire s
 California is a large mass with varying vegetation types, temperature, and moisture regimes. We selected this topic to determine if it is possible to predict wildfire size based on ecological factors. As wildfires continue to proliferate, and devestating events such as the Camp Fire in Paradise California (An event which led to the loss of over 11,000 homes and 85 deaths); Prediction models such as this will need to be utilized for the sake of public safety.
 
 ### Description of Source Data:
-We will be applying 2 different data sources for this analysis:
+We will be applying the following data source for this analysis:
 
-* #### Data Source 1: US Wildfire Data:
+* #### Data Source: US Wildfire Data:
   * https://www.kaggle.com/ananthu017/california-wildfire-incidents-20132020
 
 ### Questions We Hope to answer:
