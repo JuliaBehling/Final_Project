@@ -5,7 +5,7 @@
 
 # Presentation:
 ### Topic Selection:
-Our selected topic aims to predict what ecological factor best determines wildfire size. Ecological factors include: precipitation, and temperature. 
+Our selected topic aims to predict what combined ecological factors best determine the likelihood of a G-Class Fire. G-Class fires are largescale burned areas, reaching a size greater than 5,000 square acres. Ecological factors include temperature and precipitation rates. 
 
 ### Reason for Topic Selection:
 The State of California has reached an unprecedented crisis in annual wildfire size and intensity. Decades of well-intended fire suppression techniques has led to an overabundance of combustible material throughout the natural landscape. Partnered with unparalleled high temperatures and drought, residents of California suffer from poor air quality, possibility of home loss, and risk to personal safety.  
