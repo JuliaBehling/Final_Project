@@ -5,7 +5,7 @@
 
 # Presentation:
 ### Topic Selection:
-Our selected topic aims to predict what ecological factor best determines wildfire size. 
+Our selected topic aims to predict what ecological factor best determines wildfire size. Ecological factors include: precipitation, and temperature. 
 
 ### Reason for Topic Selection:
 The State of California has reached an unprecedented crisis in annual wildfire size and intensity. Decades of well-intended fire suppression techniques has led to an overabundance of combustible material throughout the natural landscape. Partnered with unparalleled high temperatures and drought, residents of California suffer from poor air quality, possibility of home loss, and risk to personal safety.  
@@ -18,8 +18,8 @@ We will be applying the following data source for this analysis:
   * https://www.kaggle.com/ananthu017/california-wildfire-incidents-20132020
 
 ### Questions We Hope to answer:
-1.	Is there a statistically significant correlation between wildfire size to the quantity of fire relief stations per County. 
-2.	Does funding and or socieconomic status of a county factor into the ability to fight Fires?
+1.	Is there a statistically significant correlation between wildfire size to precipitation? 
+2.	Is there a statistically significant correlation between wildfire size to temperature?
 3.	what other factors play into creating a fire prediction model?
 
 
