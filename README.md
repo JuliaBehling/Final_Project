@@ -20,8 +20,8 @@ We will be applying the following data source for this analysis:
 ### Questions We Hope to Answer:
 1.	Which ecological factors are the best predictors of large, catastrophic fires?
 2.	Is there a statistically significant correlation between wildfire size to precipitation, humidity, wind speeds, temperature? 
-4.	Does the distance between wildfire and the nearest fire facilities determine the size of the wildfire?
-5.	Does funding/availability of resources affect the ability of different counties to fight wildfires in California?
+3.	Does the distance between wildfire and the nearest fire facilities determine the size of the wildfire?
+4.	Does funding/availability of resources affect the ability of different counties to fight wildfires in California?
 
 ### Description of Machine Learning Models
 #### Data Preprocessing Procedure
