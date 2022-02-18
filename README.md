@@ -40,6 +40,10 @@ We wanted to know which ecological factors were the most useful in predicting th
 
 >Image Here<
 
+### Dashboard
+Google Slides Link:
+We will be creating a dashboard using Tableau's dashboard and storyboard features. There will be a clear progression through the dashboard that will tell the story of the project and the analysis we have done. We will include the visualizations created during the analysis portion of the project. Graphs will be interactive in that the user may hover over data points to see their individual data. Users will also be able to zoom into the maps that display each wildfire location. The map will also be able to switch from fire data points to fire station location points. 
+
 # GitHub
 ## Description of Communication Protocols:
 This team has a private group in slack as well as a group text to communicate. Additionally, we have met via zoom meeting to complete this deliverable. 
