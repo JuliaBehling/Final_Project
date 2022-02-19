@@ -14,10 +14,13 @@ California is a large mass with varying vegetation types, temperature, and moist
 ### Description of Source Data:
 We will be applying the following data source for this analysis:
 
-* #### Data Source: US Wildfire Data:
+#### Data Source: 
+* US Wildfire Data:
   * https://www.kaggle.com/capcloudcoder/us-wildfire-data-plus-other-attributes
+  Contains U.S. wildfire data including date, cause, location, size, ecological factors and other identifiers.
+* California Fire Facilities:
   * https://catalog.data.gov/dataset/cal-fire-facilities-for-wildland-fire-protection
-  
+  Contains geographical and contact information of California fire facilities
 
 ### Questions We Hope to Answer:
 1.	Which ecological factors are the best predictors of large, catastrophic fires?
