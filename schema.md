@@ -1,3 +1,0 @@
-# PostgresSQL Schema
-
-![image](https://user-images.githubusercontent.com/90485451/152720536-2326c07c-038f-4151-a9a7-817da260ab48.png)
