@@ -30,7 +30,7 @@ We will be applying the following data source for this analysis:
 
 ### Description of Machine Learning Models
 #### Data Preprocessing Procedure
-Using Pandas, filtered the data for only California wildfires with non-null ecological data. This left us with 1810 rows of data to work with that represent individual wildfire instances. We selected only the columns that contain relevant quantitative data such as  the fire size and the ecological factor measures (precipitation, humidity, wind, and temperature). For the Logistical Regression, we had to create a new column that transformed the fire_size_class column into a binary code, 1 translating to G and 0 being all other classes. 
+Using Pandas, we filtered the data for only California wildfires with non-null ecological data. This left us with 1810 rows of data to work with that represent individual wildfire instances. We selected only the columns that contain relevant quantitative data such as  the fire size and the ecological factor measures (precipitation, humidity, wind, and temperature). For the Logistical Regression, we had to create a new column that transformed the fire_size_class column into a binary code, 1 translating to G and 0 being all other classes. 
 
 #### Linear Regression Model
 The dataset contains each fire's remoteness from the nearest city. We ran a linear regression to determine if there was a consistent linear correlation between the distance of fire prevention resources to the actual location of the fire and the total size of the fire. This model was limited by the presence of outliers within th data, so it proved to be less reliable than other methods for determining a factor's effect on fire size. 
@@ -40,13 +40,12 @@ The dataset contains each fire's remoteness from the nearest city. We ran a line
 #### Logistic Regression Model
 Fires given a class 'A', 'B', 'C', 'D', 'E', 'F' or 'G' determine by their size, 'A' being the smallest and 'G' the largest. Since we have these fire size classes, we wanted to see if a machine learning algorithm could predict the size class of a fire based solely on the weather readings and location data within the dataset. Originally, we used a binary classifier in sklearn to specifically predict G-class fires, the largest and most destructive class. Our goal was to make a model that could be fed current ecological data and determine the risk of a G-class fire so it could be addressed or even prevented before it even began. Then we adapted this model so that instead of a binary classification, it could predict each individual class. We had to change the solver from 'lbfgs' to 'newton-cg' so that it could handle a multi-class classification.
 
->Image Here (Confusion matrix)
+<img width="491" alt="LogisticRegressionScore" src="https://user-images.githubusercontent.com/90812456/155905212-8a295dea-acaa-4e57-8f25-0210afaa1d2a.png">
 
 #### Random Forest Feature Selection Model
 We wanted to know which ecological factors were the most useful in predicting the size of a wildfire, so we ran the data through a Random Forest Feature Selection algorithm. Random Forest was selected because it can determine the weight of individual factors on the value of a selected column. A clean dataframe was made with all the non-null California wildfire data. The 'X' data was assigned to the dataframe minus the "fire_size", "fire_size_class", and "state" columns, while the 'y' data was assigned to the "fire_size" column because that is what we want to test the weight of other factors on. 
 
->Image Here (bar graph)
-
+<img width="429" alt="RandomForestFeatures" src="https://user-images.githubusercontent.com/90812456/155905234-4ecc952b-86b4-4529-8715-c1570094e78d.png">
 
 ### Dashboard
 Google Slides Link:https://docs.google.com/presentation/d/1YJOw8q1KYfBv2fAENZplOx05uxCUmpCh1kpV7dWSmP0/edit?usp=sharing
