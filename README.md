@@ -37,8 +37,8 @@ The dataset contains each fire's remoteness from the nearest city. We ran a line
 
 >Image Here (scatter plot graph)
 
-#### Logistical Regression Model
-Fires given a class A, B, C, D, E, F or G determine by their size, A being the smallest and G the largest. Since we have these fire size classes, we wanted to see if a machine learning algorithm could predict the size class of a fire based solely on the other data within the dataset. Using a binary classifier in sklearn, we wanted to know whether the model could predict specifically G-class fires, the most destructive and catastrophic designation. Our goal was to make a model that could be fed current ecological data and determine the risk of a G-class fire so it could be addressed or even prevented before it even began. Kind of like that movie Minority Report, only in this movie, Tom Cruise would be a short firefighter instead of a short detective.
+#### Logistic Regression Model
+Fires given a class 'A', 'B', 'C', 'D', 'E', 'F' or 'G' determine by their size, 'A' being the smallest and 'G' the largest. Since we have these fire size classes, we wanted to see if a machine learning algorithm could predict the size class of a fire based solely on the weather readings and location data within the dataset. Originally, we used a binary classifier in sklearn to specifically predict G-class fires, the largest and most destructive class. Our goal was to make a model that could be fed current ecological data and determine the risk of a G-class fire so it could be addressed or even prevented before it even began. Then we adapted this model so that instead of a binary classification, it could predict each individual class. We had to change the solver from 'lbfgs' to 'newton-cg' so that it could handle a multi-class classification.
 
 >Image Here (Confusion matrix)
 
@@ -49,7 +49,8 @@ We wanted to know which ecological factors were the most useful in predicting th
 
 ### Dashboard
 Google Slides Link:https://docs.google.com/presentation/d/1YJOw8q1KYfBv2fAENZplOx05uxCUmpCh1kpV7dWSmP0/edit?usp=sharing
-We will be creating a dashboard using Tableau's dashboard and storyboard features. There will be a clear progression through the dashboard that will tell the story of the project and the analysis we have done. We will include the visualizations created during the analysis portion of the project. Graphs will be interactive in that the user may hover over data points to see their individual data. Users will also be able to zoom into the maps that display each wildfire location. The map will also be able to switch from fire data points to fire station location points. 
+Tableau Dashboard Link: 
+We created our dashboard using Tableau's dashboard and storyboard features. There is a clear progression through the dashboard that tells the story of the project and the analysis we have done. We used Tableau to create maps of wildfires and wildfire prevention resources to compare. Maps and graphs are interactive in that the user may highlight or click on data points to see their individual data (e.g. fire size, fire facilities per county). The dashboard progresses from maps to graphs that give further context and analysis points.
 
 # GitHub
 ## Description of Communication Protocols:
