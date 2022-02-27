@@ -48,9 +48,8 @@ We wanted to know which ecological factors were the most useful in predicting th
 <img width="429" alt="RandomForestFeatures" src="https://user-images.githubusercontent.com/90812456/155905234-4ecc952b-86b4-4529-8715-c1570094e78d.png">
 
 ### Dashboard
+
 Google Slides Link:https://docs.google.com/presentation/d/1YJOw8q1KYfBv2fAENZplOx05uxCUmpCh1kpV7dWSmP0/edit?usp=sharing
-Tableau Dashboard Link: 
+Tableau Dashboard Link: https://public.tableau.com/app/profile/julia.behling/viz/California_Wildfires_16457586485670/FinalStory?publish=yes
 We created our dashboard using Tableau's dashboard and storyboard features. There is a clear progression through the dashboard that tells the story of the project and the analysis we have done. We used Tableau to create maps of wildfires and wildfire prevention resources to compare. Maps and graphs are interactive in that the user may highlight or click on data points to see their individual data (e.g. fire size, fire facilities per county). The dashboard progresses from maps to graphs that give further context and analysis points.
 
-Tableau:
-https://public.tableau.com/app/profile/julia.behling/viz/California_Wildfires_16457586485670/FinalStory?publish=yes
