@@ -35,7 +35,7 @@ Using Pandas, we filtered the data for only California wildfires with non-null e
 #### Linear Regression Model
 The dataset contains each fire's remoteness from the nearest city. We ran a linear regression to determine if there was a consistent linear correlation between the distance of fire prevention resources to the actual location of the fire and the total size of the fire. This model was limited by the presence of outliers within th data, so it proved to be less reliable than other methods for determining a factor's effect on fire size. 
 
->Image Here (scatter plot graph)
+<img width="443" alt="LinearScatterPlot" src="https://user-images.githubusercontent.com/90812456/155905613-7ff25dd5-c306-41ae-8b35-6053668e6039.png">
 
 #### Logistic Regression Model
 Fires given a class 'A', 'B', 'C', 'D', 'E', 'F' or 'G' determine by their size, 'A' being the smallest and 'G' the largest. Since we have these fire size classes, we wanted to see if a machine learning algorithm could predict the size class of a fire based solely on the weather readings and location data within the dataset. Originally, we used a binary classifier in sklearn to specifically predict G-class fires, the largest and most destructive class. Our goal was to make a model that could be fed current ecological data and determine the risk of a G-class fire so it could be addressed or even prevented before it even began. Then we adapted this model so that instead of a binary classification, it could predict each individual class. We had to change the solver from 'lbfgs' to 'newton-cg' so that it could handle a multi-class classification.
