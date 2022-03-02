@@ -47,6 +47,9 @@ We wanted to know which ecological factors were the most useful in predicting th
 
 <img width="429" alt="RandomForestFeatures" src="https://user-images.githubusercontent.com/90812456/155905234-4ecc952b-86b4-4529-8715-c1570094e78d.png">
 
+### Further Analysis
+We did not conduct statistical analysis outside of our machine learning models, but if this project were to be continued, the next phase would include a statistical analysis of G-class fires. We would assess the average, variance and standard deviation of the associated weather readings (temperature, humidity, wind, and precipitation) to see what levels are considered "high-risk" for a G-class fire. 
+
 ### Dashboard
 
 Google Slides Link:https://docs.google.com/presentation/d/1YJOw8q1KYfBv2fAENZplOx05uxCUmpCh1kpV7dWSmP0/edit?usp=sharing
